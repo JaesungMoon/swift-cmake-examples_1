@@ -64,3 +64,7 @@ target_link_libraries(StringifyMacro
   SwiftSyntaxMacros
   SwiftCompilerPlugin)
 ```
+build 時間が長かった。外部からダウンロードするロジックもあった
+featchContent
+
+markdown preview: shift + cmd + v 

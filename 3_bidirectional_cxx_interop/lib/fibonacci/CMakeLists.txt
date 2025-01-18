@@ -6,7 +6,9 @@
 # See https://swift.org/LICENSE.txt for license information
 
 add_library(fibonacci STATIC fibonacci.swift fibonacci.cpp)
+
 set_target_properties(fibonacci PROPERTIES Swift_MODULE_NAME "SwiftFibonacci")
+
 target_compile_options(fibonacci PUBLIC
   "$<$<COMPILE_LANGUAGE:Swift>:-cxx-interoperability-mode=default>")
 

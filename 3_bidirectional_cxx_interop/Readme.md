@@ -69,3 +69,17 @@ x [swift]: 0
 x [cpp]: 1
 8
 ```
+
+
+面白い、libにはcppをswiftがある
+libではswiftがcppをコールしている
+
+srcにもcppとswiftがある
+srcはcppの実行とswift実行の二つがある
+swiftはmainなければ自動的に作られるらしい
+
+ninja で後ろがなかった。
+すごすぎて頭が追いついていけない
+
+一旦4番を見てから再度考える。
+

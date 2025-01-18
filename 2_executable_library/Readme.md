@@ -32,3 +32,22 @@ This project results in two primary build products, the `factorial` library, and
 the `factorials` executable The library and the corresponding swiftmodule live
 under the `lib/` directory, while the executable lives under the `src/`
 directory.
+
+libとsrcの構成
+libのコードをsrc側で使っている。
+lib側では
+で
+add_library(factorial factorial.swift)
+libraryを作っている
+libfactorial.aができている。
+swift libraryでswift source からコールしている。
+
+sourceのままでlibもビルドしてmain側もビルドしているけど
+libをそのまま使えるのかな
+
+libfactorial.a is architecture: arm64
+でビルドされている。
+
+.aだから使えるはずなのかな
+swift module とか情報があれば？？
+
