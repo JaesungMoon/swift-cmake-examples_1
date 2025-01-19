@@ -2,3 +2,4 @@
 2_executable_library/build
 3_bidirectional_cxx_interop/build
 4_swift_macros/build
+10_build_prebuilt_library/build
